@@ -8,7 +8,7 @@
     "planStartDate": "2026-09-07",
     "planEndDate": "2026-12-06",
     "createdAt": "2026-08-31T00:00:00Z",
-    "updatedAt": "2026-08-31T00:20:00Z",
+    "updatedAt": "2026-08-31T00:40:00Z",
     "totalWeeks": 13,
     "generatedBy": "Claude Coach"
   },
@@ -60,65 +60,75 @@
   "zones": {
     "run": {
       "hr": {
-        "lthr": 165,
+        "lthr": 158,
+        "notes": "Updated from LTHR ~165 to ~158, based on the Jul 31 time trial (25:47, avg HR 158, max 166) and the Aug 30 race (24:51, HR up to 166 sustained through km 5 at all-out effort). The original 165 estimate came from a single early training run and was consistently too high across every hard effort since.",
         "zones": [
           {
             "zone": 1,
             "name": "Recovery",
             "percentLow": 0,
-            "percentHigh": 81,
+            "percentHigh": 80,
             "hrLow": 0,
-            "hrHigh": 133
+            "hrHigh": 125
           },
           {
             "zone": 2,
             "name": "Aerobic",
-            "percentLow": 81,
+            "percentLow": 80,
             "percentHigh": 89,
-            "hrLow": 134,
-            "hrHigh": 147
+            "hrLow": 126,
+            "hrHigh": 140
           },
           {
             "zone": 3,
             "name": "Tempo",
-            "percentLow": 90,
+            "percentLow": 89,
             "percentHigh": 93,
-            "hrLow": 148,
-            "hrHigh": 153
+            "hrLow": 141,
+            "hrHigh": 147
           },
           {
             "zone": 4,
             "name": "Sub-threshold",
             "percentLow": 94,
             "percentHigh": 99,
-            "hrLow": 154,
-            "hrHigh": 163
+            "hrLow": 148,
+            "hrHigh": 156
           },
           {
             "zone": "5a",
             "name": "Threshold",
-            "percentLow": 100,
+            "percentLow": 99,
             "percentHigh": 102,
-            "hrLow": 164,
-            "hrHigh": 168
+            "hrLow": 157,
+            "hrHigh": 161
           },
           {
             "zone": "5b",
             "name": "VO2max",
             "percentLow": 103,
             "percentHigh": 106,
-            "hrLow": 169,
-            "hrHigh": 175
+            "hrLow": 162,
+            "hrHigh": 167
+          },
+          {
+            "zone": "5c",
+            "name": "Anaerobic",
+            "percentLow": 106,
+            "percentHigh": 127,
+            "hrLow": 168,
+            "hrHigh": 200
           }
         ]
       },
       "pace": {
-        "notes": "Updated from actual 24:51 5K race data (2026-08-30), replacing the pre-plan estimates. Re-validate again in spring if you build toward another race.",
-        "easy": "6:00-6:30/km",
-        "tempo": "5:05-5:15/km",
-        "threshold": "4:55-5:05/km",
-        "interval": "4:35-4:50/km",
-        "current5KPace": "4:58/km (24:51 actual)"
+        "notes": "Rebuilt around the diary's 5-tier system (E/M/T/I/R), anchored on Threshold pace \u2014 the most directly measured number, taken from the Jul 31 time trial run essentially at LTHR (158bpm) for 25+ minutes. Interval pace is validated by the actual VO2max session (4:47-5:04/km) and the race's middle kilometers (4:55/km). Easy pace is intentionally slower than recent training runs (5:36-6:00/km) \u2014 those were drifting toward Marathon-pace territory rather than true easy; the workouts below use true Easy pace.",
+        "easy": "5:55-6:20/km",
+        "marathon": "5:20-5:30/km (speculative \u2014 no marathon-distance data yet; would need a long tempo effort or race to validate)",
+        "threshold": "5:05-5:10/km",
+        "interval": "4:45-4:55/km",
+        "repetition": "4:30-4:45/km (not currently used by any session in this plan)",
+        "current5KPace": "4:58/km (24:51 actual, 2026-08-30)"
       }
     }
   },
@@ -344,11 +354,11 @@
               "durationMinutes": 38,
               "distanceMeters": 6500,
               "primaryZone": "Zone 3-4",
-              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:10/km (comfortably hard, controlled)\nCool-down: 10min easy",
               "completed": false,
               "targetPace": {
                 "low": "5:05",
-                "high": "5:15"
+                "high": "5:10"
               }
             }
           ]
@@ -366,11 +376,11 @@
               "durationMinutes": 25,
               "distanceMeters": 4000,
               "primaryZone": "Zone 2",
-              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "humanReadable": "25min easy @ 5:55-6:20/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -487,11 +497,11 @@
               "durationMinutes": 38,
               "distanceMeters": 6000,
               "primaryZone": "Zone 4-5a",
-              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:35-4:50/km, 90sec jog recovery\nCool-down: 8min easy",
+              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:45-4:55/km, 90sec jog recovery\nCool-down: 8min easy",
               "completed": false,
               "targetPace": {
-                "low": "4:35",
-                "high": "4:50"
+                "low": "4:45",
+                "high": "4:55"
               }
             }
           ]
@@ -509,11 +519,11 @@
               "durationMinutes": 25,
               "distanceMeters": 4000,
               "primaryZone": "Zone 2",
-              "humanReadable": "19min easy @ 6:00-6:30/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
+              "humanReadable": "19min easy @ 5:55-6:20/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -765,11 +775,11 @@
               "durationMinutes": 38,
               "distanceMeters": 6500,
               "primaryZone": "Zone 3-4",
-              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:10/km (comfortably hard, controlled)\nCool-down: 10min easy",
               "completed": false,
               "targetPace": {
                 "low": "5:05",
-                "high": "5:15"
+                "high": "5:10"
               }
             }
           ]
@@ -787,11 +797,11 @@
               "durationMinutes": 25,
               "distanceMeters": 4000,
               "primaryZone": "Zone 2",
-              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "humanReadable": "25min easy @ 5:55-6:20/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -908,11 +918,11 @@
               "durationMinutes": 38,
               "distanceMeters": 6000,
               "primaryZone": "Zone 4-5a",
-              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:35-4:50/km, 90sec jog recovery\nCool-down: 8min easy",
+              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:45-4:55/km, 90sec jog recovery\nCool-down: 8min easy",
               "completed": false,
               "targetPace": {
-                "low": "4:35",
-                "high": "4:50"
+                "low": "4:45",
+                "high": "4:55"
               }
             }
           ]
@@ -930,11 +940,11 @@
               "durationMinutes": 25,
               "distanceMeters": 4000,
               "primaryZone": "Zone 2",
-              "humanReadable": "19min easy @ 6:00-6:30/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
+              "humanReadable": "19min easy @ 5:55-6:20/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -1186,11 +1196,11 @@
               "durationMinutes": 38,
               "distanceMeters": 6500,
               "primaryZone": "Zone 3-4",
-              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:10/km (comfortably hard, controlled)\nCool-down: 10min easy",
               "completed": false,
               "targetPace": {
                 "low": "5:05",
-                "high": "5:15"
+                "high": "5:10"
               }
             }
           ]
@@ -1208,11 +1218,11 @@
               "durationMinutes": 25,
               "distanceMeters": 4000,
               "primaryZone": "Zone 2",
-              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "humanReadable": "25min easy @ 5:55-6:20/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -1329,11 +1339,11 @@
               "durationMinutes": 38,
               "distanceMeters": 6000,
               "primaryZone": "Zone 4-5a",
-              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:35-4:50/km, 90sec jog recovery\nCool-down: 8min easy",
+              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:45-4:55/km, 90sec jog recovery\nCool-down: 8min easy",
               "completed": false,
               "targetPace": {
-                "low": "4:35",
-                "high": "4:50"
+                "low": "4:45",
+                "high": "4:55"
               }
             }
           ]
@@ -1351,11 +1361,11 @@
               "durationMinutes": 25,
               "distanceMeters": 4000,
               "primaryZone": "Zone 2",
-              "humanReadable": "19min easy @ 6:00-6:30/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
+              "humanReadable": "19min easy @ 5:55-6:20/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -1607,11 +1617,11 @@
               "durationMinutes": 38,
               "distanceMeters": 6500,
               "primaryZone": "Zone 3-4",
-              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:10/km (comfortably hard, controlled)\nCool-down: 10min easy",
               "completed": false,
               "targetPace": {
                 "low": "5:05",
-                "high": "5:15"
+                "high": "5:10"
               }
             }
           ]
@@ -1629,11 +1639,11 @@
               "durationMinutes": 25,
               "distanceMeters": 4000,
               "primaryZone": "Zone 2",
-              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "humanReadable": "25min easy @ 5:55-6:20/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -1750,11 +1760,11 @@
               "durationMinutes": 22,
               "distanceMeters": 3500,
               "primaryZone": "Zone 1-2 + strides",
-              "humanReadable": "16min easy @ 6:00-6:30/km, then 4 x 100m relaxed strides @ ~5K effort with full recovery. Stop well short of tired.",
+              "humanReadable": "16min easy @ 5:55-6:20/km, then 4 x 100m relaxed strides @ ~5K effort with full recovery. Stop well short of tired.",
               "completed": false,
               "targetPace": {
-                "low": "6:00",
-                "high": "6:30"
+                "low": "5:55",
+                "high": "6:20"
               }
             }
           ]
@@ -2005,7 +2015,7 @@
     "pacing": {
       "run": {
         "targetPace": "n/a \u2014 no race in this block",
-        "targetHR": "<165 (LTHR)",
+        "targetHR": "<158 (LTHR)",
         "notes": "If you register a race mid-cycle, treat that week as a one-off cutback + effort, using the same pacing discipline from your sub-25 race: slightly conservative km1, even through the middle, push the last km."
       }
     },
