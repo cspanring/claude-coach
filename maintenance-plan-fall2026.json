@@ -1,0 +1,2028 @@
+{
+  "version": "1.0",
+  "meta": {
+    "id": "maintenance-5k-fall2026",
+    "athlete": "Runner",
+    "event": "Fall 2026 Maintenance Plan",
+    "eventDate": "2026-12-06",
+    "planStartDate": "2026-09-07",
+    "planEndDate": "2026-12-06",
+    "createdAt": "2026-08-31T00:00:00Z",
+    "updatedAt": "2026-08-31T00:20:00Z",
+    "totalWeeks": 13,
+    "generatedBy": "Claude Coach"
+  },
+  "preferences": {
+    "run": "kilometers",
+    "firstDayOfWeek": "monday"
+  },
+  "assessment": {
+    "foundation": {
+      "raceHistory": [
+        "4 years recreational running before this plan",
+        "Mid-plan 5K time trial during Week 6 build",
+        "5K race: 24:51 on 2026-08-30 (goal was sub-25:00) \u2014 negative split, HR stayed below LTHR through km 4"
+      ],
+      "peakTrainingLoad": 4,
+      "foundationLevel": "intermediate",
+      "yearsInSport": 4
+    },
+    "currentForm": {
+      "weeklyVolume": {
+        "total": 2.8,
+        "run": 2.8
+      },
+      "longestSessions": {
+        "run": 10
+      },
+      "consistency": 4,
+      "timeSincePeakFitness": "0 weeks \u2014 race just completed, this plan starts 1 week post-race"
+    },
+    "strengths": [
+      {
+        "sport": "run",
+        "evidence": "Disciplined pacing and negative-split execution on race day; cadence improved to 168-176spm; HR control shows real aerobic + threshold development from the last 10 weeks"
+      }
+    ],
+    "limiters": [
+      {
+        "sport": "run",
+        "evidence": "Original limiter was inconsistent training frequency \u2014 resolved during the race build, but staying consistent with only 2-3 flexible sessions/week through a busier, colder, wetter season is the risk this plan is designed around"
+      }
+    ],
+    "constraints": [
+      "2-3 runs/week capacity, no fixed days \u2014 work schedule varies week to week",
+      "Entering the cooler, wetter part of the year",
+      "No goal race currently scheduled \u2014 this is a maintenance, not a build, block",
+      "Racing a 4-mile turkey trot on 2026-11-26 (unplanned mid-block) \u2014 Week 12 restructured around it"
+    ]
+  },
+  "zones": {
+    "run": {
+      "hr": {
+        "lthr": 165,
+        "zones": [
+          {
+            "zone": 1,
+            "name": "Recovery",
+            "percentLow": 0,
+            "percentHigh": 81,
+            "hrLow": 0,
+            "hrHigh": 133
+          },
+          {
+            "zone": 2,
+            "name": "Aerobic",
+            "percentLow": 81,
+            "percentHigh": 89,
+            "hrLow": 134,
+            "hrHigh": 147
+          },
+          {
+            "zone": 3,
+            "name": "Tempo",
+            "percentLow": 90,
+            "percentHigh": 93,
+            "hrLow": 148,
+            "hrHigh": 153
+          },
+          {
+            "zone": 4,
+            "name": "Sub-threshold",
+            "percentLow": 94,
+            "percentHigh": 99,
+            "hrLow": 154,
+            "hrHigh": 163
+          },
+          {
+            "zone": "5a",
+            "name": "Threshold",
+            "percentLow": 100,
+            "percentHigh": 102,
+            "hrLow": 164,
+            "hrHigh": 168
+          },
+          {
+            "zone": "5b",
+            "name": "VO2max",
+            "percentLow": 103,
+            "percentHigh": 106,
+            "hrLow": 169,
+            "hrHigh": 175
+          }
+        ]
+      },
+      "pace": {
+        "notes": "Updated from actual 24:51 5K race data (2026-08-30), replacing the pre-plan estimates. Re-validate again in spring if you build toward another race.",
+        "easy": "6:00-6:30/km",
+        "tempo": "5:05-5:15/km",
+        "threshold": "4:55-5:05/km",
+        "interval": "4:35-4:50/km",
+        "current5KPace": "4:58/km (24:51 actual)"
+      }
+    }
+  },
+  "phases": [
+    {
+      "name": "Recovery",
+      "startWeek": 1,
+      "endWeek": 1,
+      "focus": "Post-race deload before maintenance training resumes",
+      "weeklyHoursRange": {
+        "low": 0.5,
+        "high": 1.0
+      },
+      "keyWorkouts": [
+        "Very easy shakeout runs, no pace targets"
+      ],
+      "physiologicalGoals": [
+        "Absorb race fatigue",
+        "Full muscular and CNS recovery before resuming structure"
+      ]
+    },
+    {
+      "name": "Maintenance Cycle 1",
+      "startWeek": 2,
+      "endWeek": 7,
+      "focus": "Sustain aerobic base and threshold fitness with minimal, flexible structure",
+      "weeklyHoursRange": {
+        "low": 0.9,
+        "high": 2.3
+      },
+      "keyWorkouts": [
+        "Easy aerobic runs",
+        "One tempo or interval session per week (alternating)",
+        "Steady longer run"
+      ],
+      "physiologicalGoals": [
+        "Hold LTHR and running economy near race-week levels",
+        "Keep just enough top-end stimulus that VO2max doesn't decay",
+        "Protect training consistency through schedule and weather disruption"
+      ]
+    },
+    {
+      "name": "Maintenance Cycle 2 (repeat)",
+      "startWeek": 8,
+      "endWeek": 13,
+      "focus": "Exact repeat of Cycle 1's template \u2014 same weekly pattern, re-applied",
+      "weeklyHoursRange": {
+        "low": 0.9,
+        "high": 2.3
+      },
+      "keyWorkouts": [
+        "Easy aerobic runs",
+        "One tempo or interval session per week (alternating)",
+        "Steady longer run"
+      ],
+      "physiologicalGoals": [
+        "Sustain fitness through the darkest/wettest months",
+        "Keep the habit consistent regardless of weather \u2014 this is the whole point of the block"
+      ]
+    }
+  ],
+  "weeks": [
+    {
+      "weekNumber": 1,
+      "startDate": "2026-09-07",
+      "endDate": "2026-09-13",
+      "phase": "Recovery",
+      "focus": "Post-race deload before maintenance training resumes",
+      "targetHours": 0.8,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2026-09-07",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w1-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-08",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w1-tuesday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-09",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w1-wed-recovery",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Post-Race Shakeout",
+              "description": "Post-race recovery, landing on your usual strength day \u2014 if you lift this week, keep both very light. Legs will feel heavy \u2014 that's normal 48-72h after a hard 5K. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 20,
+              "distanceMeters": 3000,
+              "primaryZone": "Zone 1",
+              "humanReadable": "20min at whatever pace feels good, before or after a light lift if you do one. Walk breaks are fine.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-10",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w1-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-11",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w1-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-12",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w1-sat-recovery",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Post-Race Shakeout",
+              "description": "Post-race recovery \u2014 no structure, no pace targets. If this feels good, great. If not, walk it out \u2014 no downside to an extra easy day here. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 25,
+              "distanceMeters": 3500,
+              "primaryZone": "Zone 1",
+              "humanReadable": "25min at whatever pace feels good. Walk breaks are fine.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-13",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w1-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 0.8,
+        "bySport": {
+          "run": {
+            "sessions": 2,
+            "hours": 0.8,
+            "km": 6.5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 2,
+      "startDate": "2026-09-14",
+      "endDate": "2026-09-20",
+      "phase": "Maintenance Cycle 1",
+      "focus": "Cycle open \u2014 steady aerobic running plus one tempo session",
+      "targetHours": 2.0,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-09-14",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w2-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-15",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w2-tue-tempo",
+              "sport": "run",
+              "type": "tempo",
+              "name": "Tempo Maintenance",
+              "description": "Maintenance-dose tempo \u2014 enough to keep threshold fitness from fading, short enough to not need much recovery. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 38,
+              "distanceMeters": 6500,
+              "primaryZone": "Zone 3-4",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "completed": false,
+              "targetPace": {
+                "low": "5:05",
+                "high": "5:15"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-09-16",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w2-wed-easy",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Aerobic Run",
+              "description": "Short and relaxed Zone 2 running, deliberately kept light since this lands on your strength training day \u2014 run it before lifting as a warm-up-length shakeout, or after as a cooldown, whichever fits your session better. Keep it easy; the strength work is the point of the day. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-09-17",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w2-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-18",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w2-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-19",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w2-sat-steady",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Steady Aerobic Run",
+              "description": "Your longest run of the week, but still comfortable \u2014 Zone 2 with the option to drift toward the top of it late. This is what maintains your aerobic base through the off-season. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 42,
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "42min steady @ 6:00-6:20/km. Terrain/wet footing permitting, this is a good one to extend by 5-10min if you're feeling good.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:20"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-09-20",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w2-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.8,
+            "km": 17.5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 3,
+      "startDate": "2026-09-21",
+      "endDate": "2026-09-27",
+      "phase": "Maintenance Cycle 1",
+      "focus": "Hold the pattern \u2014 swap tempo for short intervals to vary the stimulus",
+      "targetHours": 2.0,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-09-21",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w3-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-22",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w3-tue-interval",
+              "sport": "run",
+              "type": "intervals",
+              "name": "Speed Maintenance Intervals",
+              "description": "Short, sharp reps to keep top-end speed and cadence from fading over winter. Doesn't need to be a grind \u2014 this is upkeep, not a build. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 38,
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 4-5a",
+              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:35-4:50/km, 90sec jog recovery\nCool-down: 8min easy",
+              "completed": false,
+              "targetPace": {
+                "low": "4:35",
+                "high": "4:50"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-09-23",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w3-wed-easy",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Aerobic Run + Strides",
+              "description": "Short easy running with a few strides, on your strength training day \u2014 keep the run light since lifting is the main event. Run before or after, whichever fits. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "19min easy @ 6:00-6:30/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-09-24",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w3-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-25",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w3-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-26",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w3-sat-steady",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Steady Aerobic Run",
+              "description": "Your longest run of the week, but still comfortable \u2014 Zone 2 with the option to drift toward the top of it late. This is what maintains your aerobic base through the off-season. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 42,
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "42min steady @ 6:00-6:20/km. Terrain/wet footing permitting, this is a good one to extend by 5-10min if you're feeling good.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:20"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-09-27",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w3-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.8,
+            "km": 17.0
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 4,
+      "startDate": "2026-09-28",
+      "endDate": "2026-10-04",
+      "phase": "Maintenance Cycle 1",
+      "focus": "Cutback week \u2014 lighten volume, protect consistency",
+      "targetHours": 0.9,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2026-09-28",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w4-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-29",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w4-tuesday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-09-30",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w4-wed-cutback",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback Run",
+              "description": "Cutback week \u2014 deliberately light, and paired with your strength day so it costs you nothing extra. Trust it; this is what lets you absorb the last block and keep showing up. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 20,
+              "distanceMeters": 3000,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "20min very easy @ 6:15-6:45/km, before or after lifting. Should feel almost too easy.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-01",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w4-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-02",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w4-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-03",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w4-sat-cutback-strides",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback + Strides",
+              "description": "Cutback week, second session \u2014 easy running with a few strides so the legs don't go flat. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 28,
+              "distanceMeters": 4200,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "23min very easy, then 4 x 100m relaxed strides @ ~5K effort, full recovery.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-04",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w4-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 0.8,
+        "bySport": {
+          "run": {
+            "sessions": 2,
+            "hours": 0.8,
+            "km": 7.2
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 5,
+      "startDate": "2026-10-05",
+      "endDate": "2026-10-11",
+      "phase": "Maintenance Cycle 1",
+      "focus": "Back to steady work \u2014 same structure as weeks 1-2 of this cycle",
+      "targetHours": 2.0,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-10-05",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w5-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-06",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w5-tue-tempo",
+              "sport": "run",
+              "type": "tempo",
+              "name": "Tempo Maintenance",
+              "description": "Maintenance-dose tempo \u2014 enough to keep threshold fitness from fading, short enough to not need much recovery. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 38,
+              "distanceMeters": 6500,
+              "primaryZone": "Zone 3-4",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "completed": false,
+              "targetPace": {
+                "low": "5:05",
+                "high": "5:15"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-07",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w5-wed-easy",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Aerobic Run",
+              "description": "Short and relaxed Zone 2 running, deliberately kept light since this lands on your strength training day \u2014 run it before lifting as a warm-up-length shakeout, or after as a cooldown, whichever fits your session better. Keep it easy; the strength work is the point of the day. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-08",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w5-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-09",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w5-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-10",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w5-sat-steady",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Steady Aerobic Run",
+              "description": "Your longest run of the week, but still comfortable \u2014 Zone 2 with the option to drift toward the top of it late. This is what maintains your aerobic base through the off-season. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 42,
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "42min steady @ 6:00-6:20/km. Terrain/wet footing permitting, this is a good one to extend by 5-10min if you're feeling good.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:20"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-11",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w5-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.8,
+            "km": 17.5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 6,
+      "startDate": "2026-10-12",
+      "endDate": "2026-10-18",
+      "phase": "Maintenance Cycle 1",
+      "focus": "Second quality rotation \u2014 intervals again",
+      "targetHours": 2.0,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-10-12",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w6-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-13",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w6-tue-interval",
+              "sport": "run",
+              "type": "intervals",
+              "name": "Speed Maintenance Intervals",
+              "description": "Short, sharp reps to keep top-end speed and cadence from fading over winter. Doesn't need to be a grind \u2014 this is upkeep, not a build. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 38,
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 4-5a",
+              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:35-4:50/km, 90sec jog recovery\nCool-down: 8min easy",
+              "completed": false,
+              "targetPace": {
+                "low": "4:35",
+                "high": "4:50"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-14",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w6-wed-easy",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Aerobic Run + Strides",
+              "description": "Short easy running with a few strides, on your strength training day \u2014 keep the run light since lifting is the main event. Run before or after, whichever fits. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "19min easy @ 6:00-6:30/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-15",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w6-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-16",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w6-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-17",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w6-sat-steady",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Steady Aerobic Run",
+              "description": "Your longest run of the week, but still comfortable \u2014 Zone 2 with the option to drift toward the top of it late. This is what maintains your aerobic base through the off-season. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 42,
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "42min steady @ 6:00-6:20/km. Terrain/wet footing permitting, this is a good one to extend by 5-10min if you're feeling good.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:20"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-18",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w6-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.8,
+            "km": 17.0
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 7,
+      "startDate": "2026-10-19",
+      "endDate": "2026-10-25",
+      "phase": "Maintenance Cycle 1",
+      "focus": "Cutback week \u2014 cycle closes here, then repeats from the top",
+      "targetHours": 0.9,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2026-10-19",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w7-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-20",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w7-tuesday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-21",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w7-wed-cutback",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback Run",
+              "description": "Cutback week \u2014 deliberately light, and paired with your strength day so it costs you nothing extra. Trust it; this is what lets you absorb the last block and keep showing up. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 20,
+              "distanceMeters": 3000,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "20min very easy @ 6:15-6:45/km, before or after lifting. Should feel almost too easy.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w7-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-23",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w7-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-24",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w7-sat-cutback-strides",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback + Strides",
+              "description": "Cutback week, second session \u2014 easy running with a few strides so the legs don't go flat. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 28,
+              "distanceMeters": 4200,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "23min very easy, then 4 x 100m relaxed strides @ ~5K effort, full recovery.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-25",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w7-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 0.8,
+        "bySport": {
+          "run": {
+            "sessions": 2,
+            "hours": 0.8,
+            "km": 7.2
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 8,
+      "startDate": "2026-10-26",
+      "endDate": "2026-11-01",
+      "phase": "Maintenance Cycle 2 (repeat)",
+      "focus": "Cycle open \u2014 steady aerobic running plus one tempo session",
+      "targetHours": 2.0,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-10-26",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w8-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-27",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w8-tue-tempo",
+              "sport": "run",
+              "type": "tempo",
+              "name": "Tempo Maintenance",
+              "description": "Maintenance-dose tempo \u2014 enough to keep threshold fitness from fading, short enough to not need much recovery. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 38,
+              "distanceMeters": 6500,
+              "primaryZone": "Zone 3-4",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "completed": false,
+              "targetPace": {
+                "low": "5:05",
+                "high": "5:15"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-28",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w8-wed-easy",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Aerobic Run",
+              "description": "Short and relaxed Zone 2 running, deliberately kept light since this lands on your strength training day \u2014 run it before lifting as a warm-up-length shakeout, or after as a cooldown, whichever fits your session better. Keep it easy; the strength work is the point of the day. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-10-29",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w8-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-30",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w8-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-10-31",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w8-sat-steady",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Steady Aerobic Run",
+              "description": "Your longest run of the week, but still comfortable \u2014 Zone 2 with the option to drift toward the top of it late. This is what maintains your aerobic base through the off-season. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 42,
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "42min steady @ 6:00-6:20/km. Terrain/wet footing permitting, this is a good one to extend by 5-10min if you're feeling good.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:20"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-01",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w8-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.8,
+            "km": 17.5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 9,
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-08",
+      "phase": "Maintenance Cycle 2 (repeat)",
+      "focus": "Hold the pattern \u2014 swap tempo for short intervals to vary the stimulus",
+      "targetHours": 2.0,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-11-02",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w9-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w9-tue-interval",
+              "sport": "run",
+              "type": "intervals",
+              "name": "Speed Maintenance Intervals",
+              "description": "Short, sharp reps to keep top-end speed and cadence from fading over winter. Doesn't need to be a grind \u2014 this is upkeep, not a build. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 38,
+              "distanceMeters": 6000,
+              "primaryZone": "Zone 4-5a",
+              "humanReadable": "Warm-up: 12min easy + 4x100m strides\nMain: 6 x 400m @ 4:35-4:50/km, 90sec jog recovery\nCool-down: 8min easy",
+              "completed": false,
+              "targetPace": {
+                "low": "4:35",
+                "high": "4:50"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w9-wed-easy",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Aerobic Run + Strides",
+              "description": "Short easy running with a few strides, on your strength training day \u2014 keep the run light since lifting is the main event. Run before or after, whichever fits. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "19min easy @ 6:00-6:30/km, then 4-5 x 100m strides @ ~5K effort with full recovery between.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-05",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w9-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-06",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w9-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-07",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w9-sat-steady",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Steady Aerobic Run",
+              "description": "Your longest run of the week, but still comfortable \u2014 Zone 2 with the option to drift toward the top of it late. This is what maintains your aerobic base through the off-season. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 42,
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "42min steady @ 6:00-6:20/km. Terrain/wet footing permitting, this is a good one to extend by 5-10min if you're feeling good.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:20"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-08",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w9-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.8,
+            "km": 17.0
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 10,
+      "startDate": "2026-11-09",
+      "endDate": "2026-11-15",
+      "phase": "Maintenance Cycle 2 (repeat)",
+      "focus": "Cutback week \u2014 lighten volume, protect consistency",
+      "targetHours": 0.9,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2026-11-09",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w10-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-10",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w10-tuesday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-11",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w10-wed-cutback",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback Run",
+              "description": "Cutback week \u2014 deliberately light, and paired with your strength day so it costs you nothing extra. Trust it; this is what lets you absorb the last block and keep showing up. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 20,
+              "distanceMeters": 3000,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "20min very easy @ 6:15-6:45/km, before or after lifting. Should feel almost too easy.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-12",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w10-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-13",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w10-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-14",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w10-sat-cutback-strides",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback + Strides",
+              "description": "Cutback week, second session \u2014 easy running with a few strides so the legs don't go flat. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 28,
+              "distanceMeters": 4200,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "23min very easy, then 4 x 100m relaxed strides @ ~5K effort, full recovery.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-15",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w10-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 0.8,
+        "bySport": {
+          "run": {
+            "sessions": 2,
+            "hours": 0.8,
+            "km": 7.2
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 11,
+      "startDate": "2026-11-16",
+      "endDate": "2026-11-22",
+      "phase": "Maintenance Cycle 2 (repeat)",
+      "focus": "Back to steady work \u2014 same structure as weeks 1-2 of this cycle",
+      "targetHours": 2.0,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-11-16",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w11-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-17",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w11-tue-tempo",
+              "sport": "run",
+              "type": "tempo",
+              "name": "Tempo Maintenance",
+              "description": "Maintenance-dose tempo \u2014 enough to keep threshold fitness from fading, short enough to not need much recovery. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 38,
+              "distanceMeters": 6500,
+              "primaryZone": "Zone 3-4",
+              "humanReadable": "Warm-up: 10min easy\nMain: 15min continuous @ 5:05-5:15/km (comfortably hard, controlled)\nCool-down: 10min easy",
+              "completed": false,
+              "targetPace": {
+                "low": "5:05",
+                "high": "5:15"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-18",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w11-wed-easy",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Easy Aerobic Run",
+              "description": "Short and relaxed Zone 2 running, deliberately kept light since this lands on your strength training day \u2014 run it before lifting as a warm-up-length shakeout, or after as a cooldown, whichever fits your session better. Keep it easy; the strength work is the point of the day. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "25min easy @ 6:00-6:30/km, fully conversational. Pair with your strength session \u2014 order doesn't matter.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-19",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w11-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-20",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w11-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-21",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w11-sat-steady",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Steady Aerobic Run",
+              "description": "Your longest run of the week, but still comfortable \u2014 Zone 2 with the option to drift toward the top of it late. This is what maintains your aerobic base through the off-season. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 42,
+              "distanceMeters": 7000,
+              "primaryZone": "Zone 2",
+              "humanReadable": "42min steady @ 6:00-6:20/km. Terrain/wet footing permitting, this is a good one to extend by 5-10min if you're feeling good.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:20"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-22",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w11-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.8,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.8,
+            "km": 17.5
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 12,
+      "startDate": "2026-11-23",
+      "endDate": "2026-11-29",
+      "phase": "Maintenance Cycle 2 (repeat)",
+      "focus": "Race week \u2014 the Nov 26 4-mile turkey trot replaces this week's quality session; everything else bends around it",
+      "targetHours": 1.3,
+      "isRecoveryWeek": false,
+      "days": [
+        {
+          "date": "2026-11-23",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w12-mon-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-24",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w12-tue-opener",
+              "sport": "run",
+              "type": "endurance",
+              "name": "Pre-Race Opener + Strides",
+              "description": "Short and light \u2014 two days out from Thursday's race, the goal is to stay loose and sharp without adding any fatigue. This replaces the usual interval session this week.",
+              "durationMinutes": 22,
+              "distanceMeters": 3500,
+              "primaryZone": "Zone 1-2 + strides",
+              "humanReadable": "16min easy @ 6:00-6:30/km, then 4 x 100m relaxed strides @ ~5K effort with full recovery. Stop well short of tired.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:00",
+                "high": "6:30"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-25",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w12-wed-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day (light strength only)",
+              "description": "Race is tomorrow \u2014 skip the usual paired run this week and go easy on the strength session too: keep loads moderate, skip anything maximal, and prioritize leaving the legs fresh over the session itself. If you can shift heavier lifting to earlier in the week just this once, that's even better.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-26",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w12-thu-race",
+              "sport": "run",
+              "type": "race",
+              "name": "\ud83e\udd83 4-Mile Race (Turkey Trot)",
+              "description": "Race day. This isn't a goal race for this block, but since you're racing anyway, run it for real \u2014 it doubles as this week's hard effort. Based on your 24:51 5K (Aug 30), a fitness-equivalent 4-mile effort predicts roughly 32:00-33:00, i.e. 5:00-5:10/km (8:03-8:19/mi). Treat that as a guide, not a mandate \u2014 maintenance-phase fitness may be a touch below your race-peak, so run by feel (hard but controlled, 7-8/10) and let the watch confirm rather than dictate. Same pacing discipline as your 5K: don't go out too hot in the first mile.",
+              "durationMinutes": 32,
+              "distanceMeters": 6440,
+              "primaryZone": "Zone 4-5a",
+              "humanReadable": "Warm-up: 10-15min easy jog + 4x100m strides\nRace: 4mi (6.44km) @ ~5:00-5:10/km (8:03-8:19/mi), controlled start, hold through the middle, push if it's there in the last mile\nCool-down: 10min easy walk/jog\nNo formal taper needed for this one \u2014 Tuesday and Wednesday are already doing that job.",
+              "completed": false,
+              "targetPace": {
+                "low": "5:00",
+                "high": "5:10"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-27",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w12-fri-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Full rest \u2014 let the race settle.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-11-28",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w12-sat-recovery",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Post-Race Easy Recovery Run",
+              "description": "Replaces this week's usual steady run \u2014 the race already provided the week's hard stimulus, so this stays genuinely easy.",
+              "durationMinutes": 25,
+              "distanceMeters": 4000,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "25min very easy @ 6:15-6:45/km. Legs may still feel it from Thursday \u2014 that's fine, keep it slow.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-11-29",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w12-sun-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 1.3,
+        "bySport": {
+          "run": {
+            "sessions": 3,
+            "hours": 1.3,
+            "km": 13.9
+          }
+        }
+      }
+    },
+    {
+      "weekNumber": 13,
+      "startDate": "2026-11-30",
+      "endDate": "2026-12-06",
+      "phase": "Maintenance Cycle 2 (repeat)",
+      "focus": "Post-race recovery, doubling as this cycle's scheduled cutback \u2014 good timing, no extra changes needed",
+      "targetHours": 0.9,
+      "isRecoveryWeek": true,
+      "days": [
+        {
+          "date": "2026-11-30",
+          "dayOfWeek": "Monday",
+          "workouts": [
+            {
+              "id": "w13-monday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-01",
+          "dayOfWeek": "Tuesday",
+          "workouts": [
+            {
+              "id": "w13-tuesday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-02",
+          "dayOfWeek": "Wednesday",
+          "workouts": [
+            {
+              "id": "w13-wed-cutback",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback Run",
+              "description": "Cutback week \u2014 deliberately light, and paired with your strength day so it costs you nothing extra. Trust it; this is what lets you absorb the last block and keep showing up. Anchored to Wednesday by default since that's already your strength day \u2014 move it only if Wednesday stops working for you.",
+              "durationMinutes": 20,
+              "distanceMeters": 3000,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "20min very easy @ 6:15-6:45/km, before or after lifting. Should feel almost too easy.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-12-03",
+          "dayOfWeek": "Thursday",
+          "workouts": [
+            {
+              "id": "w13-thursday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-04",
+          "dayOfWeek": "Friday",
+          "workouts": [
+            {
+              "id": "w13-friday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        },
+        {
+          "date": "2026-12-05",
+          "dayOfWeek": "Saturday",
+          "workouts": [
+            {
+              "id": "w13-sat-cutback-strides",
+              "sport": "run",
+              "type": "recovery",
+              "name": "Easy Cutback + Strides",
+              "description": "Cutback week, second session \u2014 easy running with a few strides so the legs don't go flat. This session is flexible \u2014 move it to any day this week that works, as long as you leave at least one easy/rest day before and after a quality session.",
+              "durationMinutes": 28,
+              "distanceMeters": 4200,
+              "primaryZone": "Zone 1-2",
+              "humanReadable": "23min very easy, then 4 x 100m relaxed strides @ ~5K effort, full recovery.",
+              "completed": false,
+              "targetPace": {
+                "low": "6:15",
+                "high": "6:45"
+              }
+            }
+          ]
+        },
+        {
+          "date": "2026-12-06",
+          "dayOfWeek": "Sunday",
+          "workouts": [
+            {
+              "id": "w13-sunday-rest",
+              "sport": "rest",
+              "type": "rest",
+              "name": "Rest Day",
+              "description": "Flexible rest day. If your schedule works better for a run today than on the suggested day, swap them \u2014 the specific day never matters, only the weekly pattern.",
+              "completed": false
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "totalHours": 0.8,
+        "bySport": {
+          "run": {
+            "sessions": 2,
+            "hours": 0.8,
+            "km": 7.2
+          }
+        }
+      }
+    }
+  ],
+  "raceStrategy": {
+    "event": {
+      "name": "No race scheduled \u2014 maintenance block",
+      "date": "2026-12-06",
+      "type": "maintenance",
+      "distances": {
+        "run": 5
+      }
+    },
+    "pacing": {
+      "run": {
+        "targetPace": "n/a \u2014 no race in this block",
+        "targetHR": "<165 (LTHR)",
+        "notes": "If you register a race mid-cycle, treat that week as a one-off cutback + effort, using the same pacing discipline from your sub-25 race: slightly conservative km1, even through the middle, push the last km."
+      }
+    },
+    "nutrition": {
+      "preRace": "Not applicable during maintenance \u2014 normal eating.",
+      "during": {
+        "carbsPerHour": 0,
+        "fluidPerHour": "as needed",
+        "products": []
+      },
+      "notes": "No race-day fueling needed for these sessions; just normal hydration, more so on longer steady runs in the heat... or, this time of year, layered up in the cold."
+    },
+    "taper": {
+      "startDate": "n/a",
+      "volumeReduction": 0,
+      "notes": "No taper needed \u2014 this is a repeating maintenance cycle, not a race build. If you decide to target a new race, tell me and I'll build a proper build/peak/taper plan from wherever your fitness is at that point."
+    },
+    "raceDay": {}
+  }
+}
